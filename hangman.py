@@ -25,6 +25,9 @@ while count < 8:
     else:
         print("No such letter in the word")
         count += 1
+    if ans == word:
+        print(ans)
+        break
 if word == "".join(empty_list):
     print("You guessed the word!")
     print("You survived!")
